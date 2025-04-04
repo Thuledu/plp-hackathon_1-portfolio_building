@@ -1,7 +1,7 @@
 # Hackathon 1: Portfolio Building
 ## Author: Thuledu Tshabalala
 
-<p>This project is a website built strictly using HTML, CSS and a little javascript.</p>
+<p>This project is a website built strictly using HTML and CSS.</p>
 <p>It is a beginner-friendly website page about recipes.</p>
 <p>It consists of:</p>
 <ol>
