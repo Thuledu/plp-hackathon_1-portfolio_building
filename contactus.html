@@ -1,0 +1,77 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a simple html web page">
+    <meta name="keywords" content="beginner, html, webpage, website">
+    <meta name="author" content="Thuledu Tshabalala">
+    <title>TasteSpring Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: lightslategray;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: darkred;
+        }
+
+        .active {
+            background-color:darkred;
+            color: white;
+          }
+    </style>
+</head>
+<body style=" background-color: #ad69bb;" opacity="0.3">
+    <header>
+        <nav>
+            <!-- Navigation Links -->
+            <ul id="active">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/aboutus.html">About Us</a></li>
+                <li><a class="active" href="/contactus.html">Contact Us</a></li>
+              </ul>
+
+        </nav>
+        <h1 style="color: white;"> Welcome to TasteSpring</h1>
+    </header>
+
+    <form action="/index.html" method="POST/GET">
+    <h2 style="color: darkred;" font-style="bold">Leave A Comment Here</h2>
+    <p style="color:white">Let us know what you think...</p>
+    <p style="color:white">You can also leave your contact details and we will get back to you!!</p><br><br>
+    <label for="name" style="color:white">Name: </label><br>
+    <input type="text" id="name" placeholder="Your Name" required><br><br>
+    
+    <label for="email" style="color:white">Email: </label><br>
+    <input type="email" id="email"placeholder="mail@example.com" required><br><br>
+  
+    <label for="phone_number" style="color:white">Phone Number: </label><br>
+    <input type="phone_number" id="phone_number"placeholder="phone_number" required><br><br>
+
+    <label for="comment" style="color:white">Comment: </label><br>
+    <input type="text" id="comment" placeholder="Add your comments here" width="900" height="800"  required><br><br>
+
+    <p style="color:white" font-style="bold">Please note that after clicking on "Submit" you will be redirected to the Main Page</p>
+    <br />
+    <button type="submit">Submit</button><br>
+    <br />
+    </form>
+    </body>
+</html>
